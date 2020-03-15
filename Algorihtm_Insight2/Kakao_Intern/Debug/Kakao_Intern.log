@@ -1,0 +1,19 @@
+﻿  Q4.cpp
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Kakao_Intern\Q4.cpp(23,24): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Kakao_Intern\Q4.cpp(23,25): warning C4244: 'argument': conversion from '_Ty' to 'const unsigned int', possible loss of data
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Kakao_Intern\Q4.cpp(23,25): warning C4244:         with
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Kakao_Intern\Q4.cpp(23,25): warning C4244:         [
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Kakao_Intern\Q4.cpp(23,25): warning C4244:             _Ty=__int64
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Kakao_Intern\Q4.cpp(23,25): warning C4244:         ]
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Kakao_Intern\Q4.cpp(24,33): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Kakao_Intern\Q4.cpp(25,20): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Kakao_Intern\Q4.cpp(25,21): warning C4244: 'argument': conversion from '_Ty' to 'const unsigned int', possible loss of data
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Kakao_Intern\Q4.cpp(25,21): warning C4244:         with
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Kakao_Intern\Q4.cpp(25,21): warning C4244:         [
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Kakao_Intern\Q4.cpp(25,21): warning C4244:             _Ty=__int64
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Kakao_Intern\Q4.cpp(25,21): warning C4244:         ]
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Kakao_Intern\Q4.cpp(28,34): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Kakao_Intern\Q4.cpp(31,17): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Kakao_Intern\Q4.cpp(32,33): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Kakao_Intern\Q4.cpp(33,8): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+  Kakao_Intern.vcxproj -> D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Debug\Kakao_Intern.exe
