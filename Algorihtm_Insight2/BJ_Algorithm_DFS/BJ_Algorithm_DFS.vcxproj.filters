@@ -24,5 +24,8 @@
     <ClCompile Include="로또 6603.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\BJ_Algorithm_BFS\영역 구하기.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
