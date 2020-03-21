@@ -18,5 +18,8 @@
     <ClCompile Include="상어의 저녁식사 1671.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="흙길 보수하기 1911.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
