@@ -18,5 +18,8 @@
     <ClCompile Include="후위 표기식 1918.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="괄호의 값 2504.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

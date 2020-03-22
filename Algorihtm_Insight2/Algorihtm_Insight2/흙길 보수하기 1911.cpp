@@ -19,6 +19,8 @@ int main() {
 	int n, l;
 	int x, y;
 
+	cin >> n >> l;
+
 	while (n--) {
 		cin>> x>>y;
 		vec.push_back({ x, y });
@@ -27,12 +29,14 @@ int main() {
 	sort(vec.begin(), vec.end());
 
 	int answer = 0;
+	int index = 0;
 
 	for (int i = 0; i < vec.size(); i++) {
-		answer += (vec[i].second - vec[i].first + 1) / l + 1;
-
-		if (i + 1 < vec.size()) {
-			if(vec[i + 1].first )
-		}
+		
+		index = max(index, vec[i].first);
+		answer += (vec[i].second - index + l - 1) / l;
+		index += ((vec[i].second - index + l - 1) / l) * l; // ÀÎµ¦½º´Â 
 	}
+
+	cout << answer;
 }

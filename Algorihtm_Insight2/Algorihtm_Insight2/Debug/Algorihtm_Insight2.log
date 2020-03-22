@@ -1,3 +1,3 @@
-﻿  상어의 저녁식사 1671.cpp
-D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Algorihtm_Insight2\상어의 저녁식사 1671.cpp(26): warning C4715:  'Shark::operator<': not all control paths return a value
+﻿  흙길 보수하기 1911.cpp
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Algorihtm_Insight2\흙길 보수하기 1911.cpp(34,20): warning C4018: '<': signed/unsigned mismatch
   Algorihtm_Insight2.vcxproj -> D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Debug\BJ_Algorithm_GREEDY.exe
