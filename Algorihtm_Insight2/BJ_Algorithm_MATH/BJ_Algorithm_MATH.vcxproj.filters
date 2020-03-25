@@ -24,5 +24,11 @@
     <ClCompile Include="유학 금지 2789%27.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="조합 2407.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="타일링 1793.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

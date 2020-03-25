@@ -23,7 +23,7 @@ int main() {
 	
 	for (int i = 0; i < n; i++) {
 		cin >> srr;
-		int temp = srr - 96;
+		long long temp = srr - 96;
 		
 		for (int j = 0; j < i; j++) {
 			temp *= 31;

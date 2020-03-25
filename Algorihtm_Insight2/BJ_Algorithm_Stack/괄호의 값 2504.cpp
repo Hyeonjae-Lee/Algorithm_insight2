@@ -25,19 +25,22 @@ int main() {
 	int temp2 = 0;
 	bool check = false;
 	int finalsum = 0;
+	int sum2 = 0;
 
 	if (srr.size() % 2 == 1) cout << 0;
+	else if (srr.size() == 0) cout << 0;
 	else {
 		for (int i = 0; i < srr.size(); i++) {
 			if (srr[i] == '(' || srr[i] == '[') {
 				Stack.push_back(srr[i]);
 				if (temp1 > 1) {
 					temp2 += temp1;
+					sum2 += temp2;
 					temp1 = 1;
 				}
 			}
 			else {
-				if (i - 1 >= 0 && Stack.back() == '(' && srr[i] == ')') {
+				if (i - 1 >= 0 && Stack.size() > 0 && Stack.back() == '(' && srr[i] == ')') {
 					Stack.pop_back();
 
 					if (Stack.empty()) {
@@ -48,30 +51,30 @@ int main() {
 							temp1 = 1;
 						}
 						else {
-							sum += temp2 + temp1;
+							sum += (temp2 + temp1)*2;
 							temp2 = 0;
 							temp1 = 1;
-							sum *= 2;
 						}
 					}
 					else {
 						temp1 *= 2;
 					}
 				}
-				else if (i - 1 >= 0 && Stack.back() == '[' && srr[i] == ']') {
+				else if (i - 1 >= 0 && Stack.size() > 0 && Stack.back() == '[' && srr[i] == ']') {
 					Stack.pop_back();
 					if (Stack.empty()) {
 						//비었다면
 						if (temp2 == 0) {
-							sum += temp1 * 3;
+							sum += sum2 + temp1 * 3;
 							temp2 = 0;
 							temp1 = 1;
+							sum2 = 0;
 						}
 						else {
-							sum = temp2 + temp1;
+							sum += sum2 + (temp2 + temp1) * 3;
 							temp2 = 0;
 							temp1 = 1;
-							sum *= 3;
+							sum2 = 0;
 						}
 
 					}
@@ -79,11 +82,19 @@ int main() {
 						temp1 *= 3;
 					}
 				}
-				else if(i - 1 >= 0 && Stack.back() == '[' && srr[i] == ')'){
+				else if(i - 1 >= 0 && Stack.size() > 0 && Stack.back() == '[' && srr[i] == ')'){
 					check = true;
 					break;
 				}
-				else if (i - 1 >= 0 && Stack.back() == '(' && srr[i] == ']') {
+				else if (i - 1 >= 0 && Stack.size() > 0 && Stack.back() == '(' && srr[i] == ']') {
+					check = true;
+					break;
+				}
+				else if (Stack.size() == 0 && srr[i] == ')') {
+					check = true;
+					break;
+				}
+				else if (Stack.size() == 0 && srr[i] == ']') {
 					check = true;
 					break;
 				}
