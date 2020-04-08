@@ -1,0 +1,26 @@
+﻿  Q5.cpp
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Line2020NewEngineer\Q5.cpp(27,20): warning C4018: '<': signed/unsigned mismatch
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Line2020NewEngineer\Q5.cpp(31,21): warning C4018: '<': signed/unsigned mismatch
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Line2020NewEngineer\Q5.cpp(33,22): warning C4018: '<': signed/unsigned mismatch
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(3466,45): error C2676: binary '-': 'const std::_Tree_unchecked_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(3466,45): error C2676:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(3466,45): error C2676:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(3466,45): error C2676:             _Kty=std::string,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(3466,45): error C2676:             _Ty=int
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(3466,45): error C2676:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(3471): message : see reference to function template instantiation 'void std::sort<_RanIt,std::less<void>>(const _RanIt,const _RanIt,_Pr)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(3471): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(3471): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(3471): message :             _RanIt=std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::string,int>>>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(3471): message :             _Pr=std::less<void>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(3471): message :         ]
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Line2020NewEngineer\Q5.cpp(44): message : see reference to function template instantiation 'void std::sort<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>>(const _RanIt,const _RanIt)' being compiled
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Line2020NewEngineer\Q5.cpp(44): message :         with
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Line2020NewEngineer\Q5.cpp(44): message :         [
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Line2020NewEngineer\Q5.cpp(44): message :             _Kty=std::string,
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Line2020NewEngineer\Q5.cpp(44): message :             _Ty=int,
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Line2020NewEngineer\Q5.cpp(44): message :             _RanIt=std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::string,int>>>>
+D:\MYGitHub\Algorithm_Insight2\Algorihtm_Insight2\Line2020NewEngineer\Q5.cpp(44): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(3466,5): error C2672: '_Sort_unchecked': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(3466,1): error C2780: 'void std::_Sort_unchecked(_RanIt,_RanIt,iterator_traits<_Iter>::difference_type,_Pr)': expects 4 arguments - 3 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(3436): message : see declaration of 'std::_Sort_unchecked'

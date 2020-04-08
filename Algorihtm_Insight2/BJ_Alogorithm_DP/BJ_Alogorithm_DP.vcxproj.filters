@@ -45,5 +45,8 @@
     <ClCompile Include="알약 4811.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="정수 삼각형 1932.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

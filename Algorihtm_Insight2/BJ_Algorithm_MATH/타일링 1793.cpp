@@ -84,7 +84,7 @@ int main() {
 		dp[i] = addSrr(dp[i - 1], addSrr(dp[i - 2], dp[i - 2]));
 	}
 
-	while (scanf_s("%d", &n) != 0) {
+	while (cin >> n) {
 		cout << dp[n] << "\n";
 	}
 

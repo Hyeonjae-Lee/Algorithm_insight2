@@ -36,8 +36,5 @@
     <ClCompile Include="카드 공장 17273.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="피보나치 수의 개수 6571.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
