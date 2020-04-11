@@ -24,5 +24,8 @@
     <ClCompile Include="바이러스 2606.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="킹 1063.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
