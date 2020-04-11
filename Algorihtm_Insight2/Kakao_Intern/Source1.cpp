@@ -28,13 +28,14 @@ bool check(string a, string b) {
 		for (int i = 0; i < b.length(); i++) {
 			if (a[i] != b[i] && b[i] != '*') return false;
 		}
+		return true;
 	}
-	return true;
 }
 
 int solve(vector<string> vec, int depth) {
 	if (depth >= banned_id_size) {
 		vector<vector<string>>::iterator iter;
+		
 		sort(vec.begin(), vec.end());
 		vec.erase(unique(vec.begin(), vec.end()), vec.end());
 
@@ -52,7 +53,6 @@ int solve(vector<string> vec, int depth) {
 	std::multimap<string, vector<string>>::iterator it;
 	for (it = MyMap.equal_range(banned_id1[depth]).first; it != MyMap.equal_range(banned_id1[depth]).second; it++)
 	{
-		//std::cout << ' ' << (*it).second;
 		vector<string>::iterator iter;
 		for (int j = 0; j < (*it).second.size(); j++) {//키값에 있는 벡터
 			iter = find(vec.begin(), vec.end(), (*it).second[j]);
@@ -80,17 +80,24 @@ int solution(vector<string> user_id, vector<string> banned_id) {
 		for (int j = 0; j < user_id.size(); j++) {
 
 			if (check(user_id[j], banned_id[i])) { // 아이디가 맞으면 
-				//vector<string> temp = MyMap[banned_id[i]];
-				//temp.push_back(user_id[j]);
-				//sort(temp.begin(), temp.end());
-				//temp.erase(unique(temp.begin(), temp.end()), temp.end());
-				//MyMap[banned_id[i]] = temp;
-				////MyMap.insert({ banned_id[i], temp});
+				
 				temp.push_back(user_id[j]);
+			}
+
+			if (user_id[j].size() != banned_id[i].size()) {
+				return false;
+			}
+
+			else {
+				for (int i = 0; i < b.length(); i++) {
+					if (a[i] != b[i] && b[i] != '*') return false;
+				}
+				return true;
 			}
 		}
 		MyMap.insert({ banned_id[i] , temp });
 	}
+
 	answer += solve(vec, 0);
 	
 	sort(finalvec.begin(), finalvec.end());
